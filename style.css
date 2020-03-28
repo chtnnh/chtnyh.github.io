@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbar {
+  color: grey;
+}
+
+#navLinks li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+}
+
+#navLinks1 li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  align-self: flex-end;
+  text-align: left;
+}
+
+main {
+  text-align: center;
+}
+
+#pageTitle {
+  text-align: center;
+  vertical-align: middle;
+}
