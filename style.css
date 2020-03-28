@@ -11,20 +11,27 @@ a {
 
 #navbar {
   color: grey;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-row: 100%;
 }
 
-#navLinks li {
+.navLinks li {
   text-decoration: none;
   list-style: none;
   display: inline;
 }
 
-#navLinks1 li {
-  text-decoration: none;
-  list-style: none;
-  display: inline;
-  align-self: flex-end;
-  text-align: left;
+#brand {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#cta {
+  text-align: right;
+  grid-row: 1;
+  grid-column: 2;
+  margin: 1em;
 }
 
 main {
@@ -34,4 +41,20 @@ main {
 #pageTitle {
   text-align: center;
   vertical-align: middle;
+}
+
+button {
+  color: white;
+  background-color: inherit;
+  border: none;
+  padding: auto;
+}
+
+button:hover {
+  background-color: slategray;
+}
+
+main ul {
+  padding: 0;
+  list-style: none;
 }
